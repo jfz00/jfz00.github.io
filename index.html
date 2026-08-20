@@ -1,10 +1,287 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MISFITS XIII</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Hello!</h1>
-    <p>Welcome to my website.</p>
+    <img src="assets/bg/main-bg.webp" class="glitch-bg main-bg" alt="" draggable="false">
+    
+    <header class="top-bar">
+        <a href="index.html" class="top-bar-logo">
+            <h2 class="top-bar-logo-name">MISFITS</h2>
+            <p class="top-bar-logo-sub">XIII</p>
+        </a>
+        <div class="top-bar-nav">
+            <a href="index.html">Characters</a>
+            <a href="npcs.html">NPCs</a>
+            <a href="world.html">World</a>
+        </div>
+    </header>
+
+    <h1 class="hero-title fade-in"></h1>
+    <p class="hero-subtitle fade-in">13 outcasts, rebels, and broken souls who refuse to bow to the Holy Cathedral of Ilunargia.</p>
+    
+    <div class="hero-stats fade-in">
+        <div class="hero-stat">
+            <div class="hero-stat-number">13</div>
+            <div class="hero-stat-label">Misfits</div>
+        </div>
+        <div class="hero-stat">
+            <div class="hero-stat-number">5</div>
+            <div class="hero-stat-label">Groups</div>
+        </div>
+        <div class="hero-stat">
+            <div class="hero-stat-number">8</div>
+            <div class="hero-stat-label">Districts</div>
+        </div>
+        <div class="hero-stat">
+            <div class="hero-stat-number">6</div>
+            <div class="hero-stat-label">NPCs</div>
+        </div>
+    </div>
+
+    <div class="character-grid fade-in" id="character-grid">
+        <a class="character-card" href="characters/katy.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 1</span></div>
+            <img src="assets/characters/katy.jpg" class="character-card-avatar" alt="Katy">
+            <div class="character-card-name">KATY_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Former SSS Rank Hero</strong></p>
+                    <p><em>Ice magic so powerful she could end the continent — if she weren't napping.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Human</span>
+                <span class="character-card-tag">Ice Katana</span>
+                <span class="character-card-tag">Trio 1</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/nao.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 1</span></div>
+            <img src="assets/characters/nao.jpg" class="character-card-avatar" alt="Nao">
+            <div class="character-card-name">NAO_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Half Blood Demon</strong></p>
+                    <p><em>Proud, royal, and oblivious enough to be teased endlessly.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Blood Magic</span>
+                <span class="character-card-tag">Crimson Halo</span>
+                <span class="character-card-tag">Trio 1</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/stacy.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 1</span></div>
+            <img src="assets/characters/stacy.jpg" class="character-card-avatar" alt="Stacy">
+            <div class="character-card-name">STACY_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Snow Elf</strong></p>
+                    <p><em>Kind, maternal, and strong enough to lift a greatsword like a feather.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Snow Elf</span>
+                <span class="character-card-tag">Greatsword</span>
+                <span class="character-card-tag">Trio 1</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/cammy.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 2</span></div>
+            <img src="assets/characters/cammy.jpg" class="character-card-avatar" alt="Cammy">
+            <div class="character-card-name">CAMMY_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Succubus</strong></p>
+                    <p><em>Cheerful idiot who transforms into a yellow bus. Yes, really.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Hellfire Scythe</span>
+                <span class="character-card-tag">Bus Mode</span>
+                <span class="character-card-tag">Trio 2</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/gelee.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 2</span></div>
+            <img src="assets/characters/gelee.jpg" class="character-card-avatar" alt="Gelee">
+            <div class="character-card-name">GELEE_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Slime Bounty Hunter</strong></p>
+                    <p><em>Loud, loyal, and hunting the demon that killed her parents.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Slime Magic</span>
+                <span class="character-card-tag">Submachine Gun</span>
+                <span class="character-card-tag">Trio 2</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/jonny.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 2</span></div>
+            <img src="assets/characters/jonny.jpg" class="character-card-avatar" alt="Jonny">
+            <div class="character-card-name">JONNY_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Former Assassin</strong></p>
+                    <p><em>Mute from birth. Speaks through emoticons and Snek.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Karambit Knives</span>
+                <span class="character-card-tag">Ghost Snake</span>
+                <span class="character-card-tag">Trio 2</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/danny.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 3</span></div>
+            <img src="assets/characters/danny.jpg" class="character-card-avatar" alt="Danny">
+            <div class="character-card-name">DANNY_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Bard / Co-Founder</strong></p>
+                    <p><em>Loud, warm, and fighting for people with no voice.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Speaker Greatsword</span>
+                <span class="character-card-tag">Soundwaves</span>
+                <span class="character-card-tag">Trio 3</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/vicious.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 3</span></div>
+            <img src="assets/characters/vicious.jpg" class="character-card-avatar" alt="Vicious">
+            <div class="character-card-name">VICIOUS_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Engineer / Founder</strong></p>
+                    <p><em>Nonchalant smartass with a war hammer and an AI that won't shut up.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Cybernetic War Hammer</span>
+                <span class="character-card-tag">R.I.Z. AI</span>
+                <span class="character-card-tag">Trio 3</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/hardhat.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">TRIO 3</span></div>
+            <img src="assets/characters/hardhat.jpg" class="character-card-avatar" alt="Hardhat">
+            <div class="character-card-name">HARDHAT_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Construction Robot</strong></p>
+                    <p><em>Hero of the Uprising. Man of few words. Literally.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Arcanic Pickaxe</span>
+                <span class="character-card-tag">2m20</span>
+                <span class="character-card-tag">Trio 3</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/shiny.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">DUO 4</span></div>
+            <img src="assets/characters/shiny.jpg" class="character-card-avatar" alt="Shiny">
+            <div class="character-card-name">SHINY_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Former Holy Knight</strong></p>
+                    <p><em>Too kind for this world. Here anyway.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Paladin</span>
+                <span class="character-card-tag">Longsword</span>
+                <span class="character-card-tag">Duo 4</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/nienna.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">DUO 4</span></div>
+            <img src="assets/characters/nienna.jpg" class="character-card-avatar" alt="Nienna">
+            <div class="character-card-name">NIENNA_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Treasurer & Quartermaster</strong></p>
+                    <p><em>Calm, pragmatic, and the reason the Misfits function.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Pocket Space</span>
+                <span class="character-card-tag">Violet Portals</span>
+                <span class="character-card-tag">Duo 4</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/rizz.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">DUO 5</span></div>
+            <img src="assets/characters/rizz.jpg" class="character-card-avatar" alt="Rizz">
+            <div class="character-card-name">RIZZ_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Former Nun</strong></p>
+                    <p><em>Calm, serene, with a bell mace and a grudge against the Cathedral.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Bell Mace</span>
+                <span class="character-card-tag">Pink Fire</span>
+                <span class="character-card-tag">Duo 5</span>
+            </div>
+        </a>
+        <a class="character-card" href="characters/dez.html">
+            <div class="character-card-corner"></div>
+            <div class="character-card-corner-br"></div>
+            <div class="character-card-ribbon"><span class="character-card-ribbon-text">DUO 5</span></div>
+            <img src="assets/characters/dez.jpg" class="character-card-avatar" alt="Dez">
+            <div class="character-card-name">DEZ_</div>
+            <div class="character-card-description">
+                <div class="character-card-desc-text">
+                    <p><strong>Fox Girl</strong></p>
+                    <p><em>Mischievous archer who pricks people with love arrows. Chaotic.</em></p>
+                </div>
+            </div>
+            <div class="character-card-tags">
+                <span class="character-card-tag">Love Magic</span>
+                <span class="character-card-tag">Supernatural Bow</span>
+                <span class="character-card-tag">Duo 5</span>
+            </div>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

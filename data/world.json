@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cathedral",
+    "name": "Holy Cathedral of Ilunargia",
+    "nickname": "The Cathedral / The Sanctum",
+    "location": "Exact center of Terminal 00",
+    "description": "Political, religious and military center of Terminal 00. Headquarters of the Holy Knights and seat of the city's central government. Enormous religious complex combining ancient sacred architecture with modern technology and security infrastructure. Dominates the surrounding skyline.",
+    "prompt": "A colossal Holy Cathedral at the absolute center of a dark cyberpunk fantasy city, viewed from a dramatic low angle at night. Ancient monumental religious architecture fused with advanced futuristic technology, enormous gothic arches, black and pale stone, towering spires, glowing stained-glass windows, massive illuminated religious symbols, holographic scripture and subtle magical light. The cathedral dominants the entire skyline and feels both sacred and intimidating. Wide ceremonial stairs lead toward enormous fortified gates, with Holy Knights patrolling the entrance in the distance. Futuristic city buildings surround the cathedral but remain visually subordinate to it. Rain-slick streets reflect cold white and golden light. Heavy clouds, faint mist, atmospheric haze, cinematic volumetric lighting.",
+    "image": "assets/world/cathedral.jpg"
+  },
+  {
+    "id": "crown",
+    "name": "Crown District",
+    "nickname": "The Crown",
+    "location": "Surrounds the Holy Cathedral",
+    "description": "Wealthiest and most politically influential district. Clean, heavily maintained, well-lit and extensively monitored. Security is highly visible, with Holy Knights and private security forces maintaining order. Inhabited by wealthy families, government officials, high-ranking Holy Knights, corporate executives, celebrities.",
+    "prompt": "A wealthy central district of a vast dark cyberpunk fantasy city at night, surrounding an enormous distant cathedral. Elegant monumental buildings, luxury towers, government palaces, prestigious hotels, expensive shops and immaculate streets. The architecture combines refined gothic fantasy with futuristic technology: black stone, polished metal, enormous windows, subtle magical illumination, holographic advertisements and elegant neon signage. Wealthy citizens move through the streets beneath umbrellas while heavily equipped Holy Knights patrol discreetly. Everything is clean, controlled and carefully maintained, but the atmosphere feels slightly oppressive beneath the luxury. The distant Cathedral of Ilunargia dominants the skyline. Rain-slick pavement reflecting gold, white and deep crimson lights, cinematic fog, dramatic clouds.",
+    "image": "assets/world/crown.jpg"
+  },
+  {
+    "id": "spires",
+    "name": "East Commercial Sector",
+    "nickname": "The Spires",
+    "location": "East of the Crown",
+    "description": "Corporate and financial center. Dominated by enormous skyscrapers, corporate headquarters, research facilities, luxury commercial centers, financial institutions and private security infrastructure. Megacorporations possess significant economic and political influence. Corporate corruption hidden behind contracts, bureaucracy and private agreements.",
+    "prompt": "A gigantic corporate district in a dark cyberpunk fantasy city at night, filled with impossibly tall skyscrapers disappearing into low clouds. Vast glass and metal megastructures covered in luminous advertisements, corporate holograms and glowing magical circuitry. Elevated trains and suspended walkways weave between the towers. Far below, tiny pedestrians and vehicles move through enormous streets. The architecture feels aggressively modern and powerful, with subtle dark-fantasy elements integrated into the technology: arcane symbols, glowing crystals, magical energy conduits and strange supernatural machinery. Corporate security checkpoints and private guards are visible throughout the district. The atmosphere is wealthy, sterile and intimidating rather than cheerful. Heavy rain, neon reflections, fog between skyscrapers, dramatic perspective looking upward.",
+    "image": "assets/world/spires.jpg"
+  },
+  {
+    "id": "blocks",
+    "name": "Civic Residential Zones",
+    "nickname": "The Blocks",
+    "location": "Primarily north and west of the Crown",
+    "description": "Main residential area containing most of Terminal 00's ordinary civilian population. Ranges from comfortable middle-class neighborhoods to overcrowded and impoverished housing complexes. Busy and densely populated. Most citizens are workers who commute to the Crown, Spires and other parts of the city.",
+    "prompt": "A vast working-class residential district in a dark cyberpunk fantasy city during a rainy evening. Dense apartment towers and older residential buildings fill the streets, connected by elevated walkways, public transit lines, small bridges and tangled utility cables. Ground level is alive with small grocery stores, food stalls, laundromats, repair shops, clinics and tiny bars glowing warmly against the cold city outside. Neon signs and holographic advertisements mix with old architecture and improvised repairs. People live close together, balconies crowded with laundry, plants, antennas and personal belongings. The neighborhood feels genuinely lived-in rather than dystopian and empty. Some areas are comfortable while others are visibly worn down. Warm window lights contrast with cold rain and blue neon.",
+    "image": "assets/world/blocks.jpg"
+  },
+  {
+    "id": "tracks",
+    "name": "East Transit Reclamation Zone",
+    "nickname": "The Tracks",
+    "location": "Eastern Outskirts",
+    "description": "One of Terminal 00's largest informal commercial networks. Built around abandoned train lines, stations, maintenance tunnels and warehouses. Almost anything can be bought, sold, traded or arranged there. Connects criminals, smugglers, corporations, migrants, mercenaries and ordinary citizens. Holy Knights periodically conduct raids that rarely eliminate it.",
+    "prompt": "A sprawling illegal market built around abandoned railway tracks in the eastern outskirts of a dark cyberpunk fantasy city at night. Rusted train tracks disappear into darkness beneath enormous old industrial structures, abandoned stations and crumbling warehouses. Hundreds of improvised stalls, illegal shops and underground businesses occupy the railway platforms and surrounding tunnels. Strange technology, forbidden magical artifacts, weapons, contraband, strange food and mysterious objects are displayed beneath colorful neon lamps and hanging signs. The market feels chaotic but organized, with countless hidden deals happening in dark corners. Old trains have been converted into shops, bars and storage rooms. Steam rises from vents, rain falls through broken roofs and puddles reflect red, violet and turquoise lights.",
+    "image": "assets/world/tracks.jpg"
+  },
+  {
+    "id": "velvet",
+    "name": "Western Entertainment Quarter",
+    "nickname": "The Velvet",
+    "location": "Western Outskirts",
+    "description": "Major nightlife and adult entertainment district. Contains brothels, clubs, bars, gambling establishments, theaters, underground venues and businesses connected to organized crime. One of the city's major information markets. Controlled by a mixture of criminal organizations, independent businesses and information brokers.",
+    "prompt": "A decadent red-light and nightlife district in a dark cyberpunk fantasy city at night. Narrow streets packed with neon-lit clubs, elegant brothels, bars, gambling halls, underground theaters and mysterious private establishments. Deep crimson, violet and pink lights glow through rain and drifting mist. Lavish art-deco and gothic architecture mixes with futuristic technology and magical details. Performers and patrons are visible only as atmospheric silhouettes, while information brokers and criminals conduct discreet meetings in shadowed doorways and private balconies. Luxury venues stand beside rougher underground establishments, showing that both the wealthy and the desperate come here. The district feels seductive, dangerous and secretive rather than simply grimy. Rain-slick streets, cigarettee smoke, holographic signs, velvet curtains, glowing windows, distant music implied through the atmosphere.",
+    "image": "assets/world/velvet.jpg"
+  },
+  {
+    "id": "wastes",
+    "name": "Northern Abandonment Zone",
+    "nickname": "The Wastes",
+    "location": "Northern Outskirts",
+    "description": "Ruins of a large section of Terminal 00 destroyed or abandoned following a mysterious catastrophe. Large sections of infrastructure remain abandoned. Official authorities consider the area dangerous and largely avoid maintaining it. Attracts scavengers, smugglers, fugitives, criminals, explorers and people seeking places where they cannot easily be found. The Misfits maintain their hidden base somewhere within the Wastes.",
+    "prompt": "A vast ruined northern district of a dark cyberpunk fantasy city after a mysterious catastrophe. Abandoned skyscrapers lean over shattered streets, collapsed bridges and broken elevated railways. Old futuristic technology lies buried beneath rubble, overgrown with strange vegetation and faintly glowing supernatural growth. Enormous ruined buildings disappear into thick fog. Signs of the former city remain everywhere: broken neon advertisements, abandoned vehicles, ruined transit stations and fragments of magical infrastructure. No functioning government presence, no crowds, only distant lights suggesting scavengers or hidden inhabitants. The destruction should feel old enough to have become part of the landscape but mysterious enough that the cause remains unknown. Cold moonlight breaks through heavy clouds while strange supernatural light glows from cracks in the ruins.",
+    "image": "assets/world/wastes.jpg"
+  },
+  {
+    "id": "warrens",
+    "name": "Southern Transitional Settlement",
+    "nickname": "The Warrens",
+    "location": "Southern Outskirts",
+    "description": "Densely populated communities inhabited primarily by migrants, banished people, undocumented residents, refugees and others excluded from the city's comfortable mainstream. Developed organically rather than through centralized urban planning. Buildings are densely packed, infrastructure is improvised. Residents rely on community networks, local leaders, mutual aid, informal businesses and sometimes criminal groups.",
+    "prompt": "A huge densely packed migrant settlement in the southern outskirts of a dark cyberpunk fantasy city at night. Thousands of improvised homes, apartment extensions, stacked containers, makeshift structures and narrow walkways have grown organically around older buildings. Buildings are connected by bridges, cables, pipes, stairs and improvised platforms, creating a dense vertical maze. Warm lights shine from countless windows and small communal businesses. Food stalls, workshops, markets, repair shops and neighborhood gathering places create pockets of warmth among poverty and decay. Different architectural styles reveal that migrants from many cultures and worlds have settled here, creating a visually diverse community. The infrastructure is poor and improvised but clearly maintained by the residents themselves. Children and families may be visible in the distance, but the environment is the focus. Rain, steam, hanging laundry, neon signs and warm lanterns create a striking contrast between hardship and community.",
+    "image": "assets/world/warrens.jpg"
+  }
+]

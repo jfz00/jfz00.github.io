@@ -1,0 +1,12 @@
+{
+  "title": "MISFITS XIII",
+  "tagline": "A dark fantasy cyberpunk story set in Terminal 00",
+  "description": "13 outcasts, rebels, and broken souls who refuse to bow to the Holy Cathedral of Ilunargia.",
+  "groups": [
+    { "id": "trio1", "name": "Trio 1", "members": ["Katy", "Nao", "Stacy"], "color": "#3b82f6" },
+    { "id": "trio2", "name": "Trio 2", "members": ["Cammy", "Gelee", "Jonny"], "color": "#a855b7" },
+    { "id": "trio3", "name": "Trio 3", "members": ["Danny", "Vicious", "Hardhat"], "color": "#e67e22" },
+    { "id": "duo4", "name": "Duo 4", "members": ["Shiny", "Nienna"], "color": "#22c55e" },
+    { "id": "duo5", "name": "Duo 5", "members": ["Rizz", "Dez"], "color": "#ec4889" }
+  ]
+}
