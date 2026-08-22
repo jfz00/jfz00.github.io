@@ -91,7 +91,6 @@ body {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    display: none;
 }
 
 .top-bar-logo-sub {
@@ -103,7 +102,7 @@ body {
 }
 
 .top-bar-logo-name::after {
-    content: "MISFITS XIII";
+    content: "";
     font-size: 1.2rem;
 }
 
