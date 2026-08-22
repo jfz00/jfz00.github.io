@@ -91,6 +91,7 @@ body {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: none;
 }
 
 .top-bar-logo-sub {
